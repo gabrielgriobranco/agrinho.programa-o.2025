@@ -1,13 +1,100 @@
-.logopmpr {
-width: 200px;
-float: right;
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
 
-header {
-background-color: blue;
-max-width: 100%;
-} 
+body {
+  background-color: #e0e0e0;
+  color: #000;
+}
 
-.campo {
-width: 300px;
+/* TOPO */
+.top-bar {
+  background: linear-gradient(to right, #0a2540, #1a3a60);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  align-items: center;
+}
+
+.logos img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.login-btn {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* IMAGEM DE TOPO */
+.header-img img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+/* MENU DE NAVEGAÇÃO */
+.nav-menu {
+  background-color: #14213d;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 15px 0;
+}
+
+.nav-menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* CONTEÚDO PRINCIPAL */
+.main-content {
+  padding: 20px;
+  background-color: #f0f0f0;
+  color: #1a1a1a;
+}
+
+.main-content h1 {
+  color: #00296b;
+  margin-bottom: 15px;
+}
+
+.main-content p {
+  line-height: 1.6;
+  font-size: 16px;
+  color: #000099;
+}
+
+/* RODAPÉ */
+.footer {
+  background-color: #0a2540;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-logos img {
+  height: 30px;
+  margin: 0 10px;
 }
