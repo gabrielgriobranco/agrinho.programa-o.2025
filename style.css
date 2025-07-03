@@ -104,3 +104,15 @@ body {
   font-size: 30px;
   color: #000099;   
 }
+
+.dicas-content p {
+   line-height: 1.6;
+  font-size: 30px;
+  color: #000099;   
+}
+
+.noticias-content p {
+   line-height: 1.6;
+  font-size: 30px;
+  color: #000099;   
+}
